@@ -18,6 +18,7 @@ const Login = () => {
             name: "username",
             type: "text",
             placeholder: "Username",
+            errorMessage: "Username is required.",
             label: "Username"
         },
         {
@@ -25,6 +26,7 @@ const Login = () => {
             name: "password",
             type: "password",
             placeholder: "Password",
+            errorMessage: "Password is required.",
             label: "Password"
         }
     ]
