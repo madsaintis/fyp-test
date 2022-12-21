@@ -19,7 +19,8 @@ const Login = () => {
             type: "text",
             placeholder: "Username",
             errorMessage: "Username is required.",
-            label: "Username"
+            label: "Username",
+            required: TRUE
         },
         {
             id: 2,
