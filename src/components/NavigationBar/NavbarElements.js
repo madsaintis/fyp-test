@@ -13,15 +13,18 @@ export const Nav = styled.nav`
 `;
 
 export const NavLink = styled(Link)`
-  color: #808080;
+  color: black;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
+  height: 40%;
   cursor: pointer;
   &.active {
     color: #4d4dff;
+    font-weight: bold;
+    background: #e6f2ff;
+    border-radius: 10%;
   }
 `;
 
