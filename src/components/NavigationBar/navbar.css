@@ -1,0 +1,50 @@
+/* .active {
+}
+*/
+
+.navLink {
+  color: green;
+  background-color: s;
+}
+
+.navLink > a:hover {
+  color: yellow;
+  background-color: aqua;
+}
+
+.navLink.active > a {
+  color: red;
+  background-color: aqua;
+}
+
+.NavigationBar {
+  border-bottom: 2px solid #1f74ff;
+  height: 50px;
+  vertical-align: middle;
+  padding: 30px;
+  margin: 10px 20px 20px 20px;
+}
+
+.title {
+  display: flex;
+  /* border-color: red;
+  border-style: solid; */
+  float: left;
+  height: 30px;
+}
+
+ul {
+  white-space: nowrap;
+  float: right;
+  /* border-color: red;
+  border-style: solid; */
+  display: flex;
+  height: 30px;
+}
+
+li {
+  display: inline;
+  margin-right: 30px;
+  list-style-position: inside;
+  border: 1px solid black;
+}

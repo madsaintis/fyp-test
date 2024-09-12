@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+body {
+  margin: 0px;
 }
 
 .loginForm {
@@ -21,6 +21,11 @@
   justify-content: center;
 }
 
+.loginForm button {
+  margin: 15px auto;
+  display: block;
+}
+
 .loginInput {
   display: flex;
   flex-direction: column;
@@ -32,8 +37,14 @@
   margin-bottom: 5px;
 }
 
-.loginForm button {
-  margin: 15px auto;
+.errorMessage {
+  font-size: 12px;
+  padding: 2px;
+  color: red;
+  display: none;
+}
+
+input:invalid ~ .errorMessage {
   display: block;
 }
 
